@@ -1,0 +1,165 @@
+body{font-family: arial, helvetica, sans-serif;
+	background-image: url(imagenes/background.jpg);
+	/*background:#2d2d2d;*/
+}
+
+#ajuste{margin:auto; width: 960px;clear:both;}
+a{text-decoration: none;color:#fff}
+a:hover{text-decoration: underline;}
+
+header{
+	background-color: #455A64;
+	margin: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	font-family: sourcesans-light;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+div {
+	padding: 10px;
+	background-color: lightblue;
+	color: #fff;
+	margin: 15px;
+	display: block;
+	text-align: center;
+}
+
+a{padding: 20px;}
+a{text-decoration: none;color:#fff}
+a:hover{text-decoration: underline;}
+
+h2{
+	text-align: center;
+	color: #76ff03;
+	font-size: 55px;
+}
+
+
+#introduccion{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+#contenido article{
+  float: left;
+  margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+	text-align: left;
+	display: block;
+ 	font-size: 22px;
+	font-family: sourcesans;
+	color: #29b6f6;
+}
+
+#contenido article .thumb{
+	display: block;
+	width: 500px;
+	height: 200px;
+	margin: 10px 10px 10px 0px;
+}
+
+#contenido article > p{
+	color:#fff;
+	font-size:18px;
+	text-align: justify;
+}
+
+
+aside{
+	float: left;
+	margin-right: 10px;
+	background-color: #607D8B;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 2px 2px #000;
+	-webkit-box-shadow:0px 2px 2px #000;
+	-moz-box-shadow:0px 2px 2px #000;
+}
+
+aside .widget h3{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+iframe{
+	float: right;
+}
+
+footer{
+  margin-top: 15px;
+  width: 100%;
+  float: left;
+  clear: both;
+  box-shadow: 0px 2px 2px #000;
+  -moz-box-shadow: 0px 2px 2px #000:
+  -webkit-box-shadow: 0px 2px 2px #000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+footer section{
+  width: 440px;
+  float: left;
+  padding: 15px;
+}
+
+footer #acerca-de{
+  font-size: 12px;
+  font-family:arial, helvetica, sans-serif;
+  text-align:justify;
+  color: #8c8c8c;
+  line-height: 20px;
+}
+
+footer #acerca-de h3{
+  font-family: sourcesaans-light;
+  font-size: 20px;
+  color:#fff;
+  margin-bottom: 5px;
+}
+
+footer #redes-s > div:hover{
+  opacity: 1;
+}
+
+footer #redes-s >div{
+  width: 220px;
+  height: 60px;
+  float: left;
+  opacity: 0.7;
+}
+
+footer #redes-s >div a{
+  width: 220px;
+  height: 60px;
+  display: inline-block;
+}
+
+footer #redes-s .email{
+  background:url(imagenes/gmail.png)no-repeat;
+
+}
+
+footer #redes-s .facebook{
+  background:url(imagenes/facebook.png)no-repeat;
+}
